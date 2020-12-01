@@ -1,0 +1,42 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=ZCOOL+XiaoWei&display=swap');
+
+$color-white: #FCFCFC;
+
+// background light
+
+// background dark
+
+
+:root {
+    --nav-height: 8.125rem;
+}
+
+.dark {}
+
+// font
+$default-font-size: 1.8rem;
+$small-font-size: 1.2rem;
+$medium-font-size: 2.2rem;
+$large-font-size: 4rem;
+$default-font-weight: 400;
+
+$lato: 'Lato',
+sans-serif;
+
+// spacing
+$default-line-height: 2.2rem;
+$medium-line-height: 4rem;
+$small-line-height: 2rem;
+$large-line-height: 5.4rem;
+
+$default-margin: 6rem;
+$small-margin: 1.87rem;
+$medium-margin: 4rem;
+$large-margin: 8rem;
+$xlarge-margin: 12rem;
+
+$default-padding: 2rem;
+$small-padding: 1rem;
+$medium-padding: 4rem;
+$large-padding: 6rem;
