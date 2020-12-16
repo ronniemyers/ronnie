@@ -3,12 +3,6 @@ body {
     color: var(--color-text);
 }
 
-nav {
-    font-weight: 700;
-    font-size: $large-font-size;
-    color: $color-roman-silver;
-}
-
 li {
     list-style-type: none;
     padding: $default-padding;
@@ -22,6 +16,7 @@ li:hover {
 
 a {
     color: $color-cultured;
+    text-decoration: none;
 }
 
 p {
