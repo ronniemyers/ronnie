@@ -4,8 +4,6 @@
 //     position: relative;
 // }
 
-
-
 .menu-wrap .toggler {
     position: absolute;
     top: 0;
@@ -23,13 +21,13 @@
     top: 0;
     right: 0;
     z-index: 1;
-    width: 5.7rem;
-    height: 5.7rem;
-    padding: 1rem;
-    margin-right: 2.4rem;
+    width: 4.7rem;
+    height: 4.7rem;
+    padding: .6rem;
+    margin-right: 2.8rem;
     background: $color-cultured;
     border-radius: 50%;
-    margin-top: .8rem;
+    margin-top: 1.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
