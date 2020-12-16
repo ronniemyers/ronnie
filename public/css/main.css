@@ -1,6 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=ZCOOL+XiaoWei&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
 :root {
   --nav-height: 8.125rem;
+  --background-color: #FAFAFA;
+  --color-text: #253237;
+}
+
+.dark {
+  --background-color: #253237;
+  --color-text: #FAFAFA;
 }
 
 *,

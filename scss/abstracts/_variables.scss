@@ -1,7 +1,11 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
-$color-white: #FCFCFC;
+$color-gunmetal: #253237;
+$color-roman-silver: #7D8491;
+$color-falu-red: #7D281E;
+$color-zomp: #41A78E;
+$color-cultured: #FAFAFA;
 
 // background light
 
@@ -10,9 +14,14 @@ $color-white: #FCFCFC;
 
 :root {
     --nav-height: 8.125rem;
+    --background-color: #{$color-cultured};
+    --color-text: #{$color-gunmetal};
 }
 
-.dark {}
+.dark {
+    --background-color: #{$color-gunmetal};
+    --color-text: #{$color-cultured};
+}
 
 // font
 $default-font-size: 1.8rem;
@@ -24,6 +33,8 @@ $large-font-size: 4rem;
 
 $lato: 'Lato',
 sans-serif;
+$playfair-display: 'Playfair Display',
+serif;
 
 // spacing
 $default-line-height: 2.2rem;
