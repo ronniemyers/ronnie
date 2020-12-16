@@ -1,7 +1,6 @@
-![Firebase Hosting](https://github.com/ronniemyers/xiao-ou/workflows/Firebase%20Hosting/badge.svg)
+![Firebase Hosting](https://github.com/ronniemyers/ronnie/workflows/Firebase%20Hosting/badge.svg)
 
-# Xiao Ou
+# Ronnie Myers
 
-Figma prototype: https://bit.ly/32rEziA
-
-![Website Preview](/demo/preview.png)
+Figma prototype: 
+![Preview](/demo/preview.png)
