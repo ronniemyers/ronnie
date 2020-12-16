@@ -55,15 +55,14 @@ li {
   padding: 1.6rem;
 }
 
-li:hover {
-  color: #FAFAFA;
-  text-decoration: underline;
-  cursor: pointer;
+a {
+  color: #7D8491;
+  text-decoration: none;
 }
 
-a {
+a:hover {
   color: #FAFAFA;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -76,18 +75,41 @@ p {
   color: #FAFAFA;
 }
 
-#showcase {
-  background: #FAFAFA;
-  height: 100vh;
-  position: relative;
+header {
+  display: flex;
+  align-items: center;
+  height: var(--nav-height);
+}
+header #header__logo {
+  margin-left: 1.87rem;
+  cursor: pointer;
+}
+header nav {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 0 4rem;
+  height: 100%;
+}
+header nav a {
+  padding: 0 2rem;
+  height: 100%;
+}
+header nav a :hover,
+header nav a :active {
+  color: blue;
+}
+header nav .active {
+  color: blue;
+}
+header nav svg {
+  margin-left: 1.87rem;
+  cursor: pointer;
 }
 
-.menu-wrap {
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 1.87rem;
-  z-index: 1;
+.menu-item {
+  visibility: hidden;
 }
 
 .menu-wrap .toggler {
@@ -109,6 +131,10 @@ p {
   width: 5.7rem;
   height: 5.7rem;
   padding: 1rem;
+  margin-right: 2.4rem;
+  background: #FAFAFA;
+  border-radius: 50%;
+  margin-top: 0.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,9 +143,9 @@ p {
 .menu-wrap .hamburger > div {
   position: relative;
   flex: none;
-  width: 80%;
+  width: 70%;
   height: 2px;
-  background: #7D281E;
+  background: #253237;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -131,7 +157,6 @@ p {
   content: "";
   position: absolute;
   z-index: 1;
-  top: -1rem;
   width: 100%;
   height: 2px;
   background: inherit;
@@ -200,14 +225,9 @@ p {
   transition: opacity 0.4s ease;
 }
 
-.menu-wrap .menu > div > div > ul > li > a:hover {
-  color: #41A78E;
-}
-
 .menu {
   font-weight: 700;
   font-size: 4rem;
-  color: #7D8491;
 }
 
 .menu__content {

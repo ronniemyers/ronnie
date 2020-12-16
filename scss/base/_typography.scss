@@ -8,15 +8,14 @@ li {
     padding: $default-padding;
 }
 
-li:hover {
-    color: $color-cultured;
-    text-decoration: underline;
-    cursor: pointer;
+a {
+    color: $color-roman-silver;
+    text-decoration: none;
 }
 
-a {
+a:hover {
     color: $color-cultured;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 p {

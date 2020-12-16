@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    align-items: center;
+    height: var(--nav-height);
+
+    #header__logo {
+        margin-left: $small-margin;
+        cursor: pointer;
+    }
+
+    nav {
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding: 0 4rem;
+        height: 100%;
+
+        a {
+            padding: 0 2rem;
+            height: 100%;
+
+            :hover,
+            :active {
+                color: blue;
+            }
+        }
+
+        .active {
+            color: blue;
+        }
+
+        svg {
+            margin-left: $small-margin;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.menu-item {
+    visibility: hidden;
+}
