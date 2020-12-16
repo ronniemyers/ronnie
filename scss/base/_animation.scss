@@ -1,0 +1,18 @@
+path {
+    transition: fill .6s ease;
+}
+
+.scroll {
+    animation: 3s ease-in 1s infinite alternate slidein;
+    animation-name: scroll;
+
+    @keyframes scroll {
+        from {
+            transform: translateY(0);
+        }
+
+        to {
+            transform: translateY(50rem);
+        }
+    }
+}
