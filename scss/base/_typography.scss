@@ -1,0 +1,35 @@
+body {
+    font-family: $lato;
+    color: var(--color-text);
+}
+
+nav {
+    font-weight: 700;
+    font-size: $large-font-size;
+    color: $color-roman-silver;
+}
+
+li {
+    list-style-type: none;
+    padding: $default-padding;
+}
+
+li:hover {
+    color: $color-cultured;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    color: $color-cultured;
+}
+
+p {
+    font-size: $default-font-size;
+    font-weight: 300;
+}
+
+::selection {
+    background-color: $color-gunmetal;
+    color: $color-cultured;
+}

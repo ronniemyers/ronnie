@@ -28,4 +28,55 @@ body {
   height: 100vh;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--color-text);
+}
+
+nav {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #7D8491;
+}
+
+li {
+  list-style-type: none;
+  padding: 1.6rem;
+}
+
+li:hover {
+  color: #FAFAFA;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a {
+  color: #FAFAFA;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+::selection {
+  background-color: #253237;
+  color: #FAFAFA;
+}
+
+#menu {
+  background-color: #253237;
+}
+
+.menu__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu__content--scroll {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+#menu {
+    background-color: $color-gunmetal;
+}
+
+.menu__content {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.menu__content--scroll {
+    margin-left: $medium-margin;
+    margin-right: $medium-margin;
+}
