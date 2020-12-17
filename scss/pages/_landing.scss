@@ -8,4 +8,21 @@
 
 .center {
     @include center;
+    margin-bottom: $large-margin;
+}
+
+.airplane {
+    margin-left: $medium-margin;
+    margin-top: $large-margin;
+}
+
+.landing__cities>p {
+    color: $color-cultured;
+    font-family: $playfair-display;
+    font-size: $large-font-size;
+    margin-bottom: $large-margin;
+
+    &:first-child {
+        margin-top: $medium-margin;
+    }
 }

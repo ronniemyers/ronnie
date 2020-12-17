@@ -27,6 +27,23 @@ path {
   }
 }
 
+.bounce {
+  animation: bounce infinite linear 6s;
+}
+
+@keyframes bounce {
+  0%, 50%, 75%, 100% {
+    transform: translate(10rem, -3rem);
+    rotate: -10deg;
+  }
+  40% {
+    transform: translateX(-20px);
+    rotate: 30deg;
+  }
+  60% {
+    transform: translateX(-12px);
+  }
+}
 *,
 ::before,
 ::after {
@@ -110,8 +127,8 @@ h3 {
   grid-column-gap: 32px;
   grid-row-gap: 32px;
   margin-bottom: 4rem;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .div1 {
@@ -183,6 +200,22 @@ header nav svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8rem;
+}
+
+.airplane {
+  margin-left: 4rem;
+  margin-top: 8rem;
+}
+
+.landing__cities > p {
+  color: #FAFAFA;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  margin-bottom: 8rem;
+}
+.landing__cities > p:first-child {
+  margin-top: 4rem;
 }
 
 .menu-wrap .toggler {
