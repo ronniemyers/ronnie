@@ -18,7 +18,7 @@
     height: 4.7rem;
     padding: .6rem;
     margin-right: 2.8rem;
-    background: $color-cultured;
+    background: var(--background-color);
     border-radius: 50%;
     margin-top: 1.1rem;
     display: flex;
@@ -31,7 +31,7 @@
     flex: none;
     width: 70%;
     height: 2px;
-    background: $color-gunmetal;
+    background: var(--color-text);
     display: flex;
     align-items: center;
     justify-content: center;

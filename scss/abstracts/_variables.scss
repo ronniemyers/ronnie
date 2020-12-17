@@ -16,11 +16,15 @@ $color-cultured: #FAFAFA;
     --nav-height: 8.125rem;
     --background-color: #{$color-cultured};
     --color-text: #{$color-gunmetal};
+    --color-links: #{$color-gunmetal};
+    --color-social: #{$color-roman-silver};
 }
 
 .dark {
     --background-color: #{$color-gunmetal};
     --color-text: #{$color-cultured};
+    --color-links: #{$color-zomp};
+    --color-social: #{$color-cultured};
 }
 
 // font

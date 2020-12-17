@@ -14,13 +14,9 @@ html {
 body {
   box-sizing: border-box;
   height: 100vh;
-  background: $color-cultured;
+  background: var(--background-color);
 }
 
 img {
   width: 100%;
-}
-
-svg:hover {
-  fill: red;
 }

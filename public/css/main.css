@@ -3,11 +3,15 @@
   --nav-height: 8.125rem;
   --background-color: #FAFAFA;
   --color-text: #253237;
+  --color-links: #253237;
+  --color-social: #7D8491;
 }
 
 .dark {
   --background-color: #253237;
   --color-text: #FAFAFA;
+  --color-links: #41A78E;
+  --color-social: #FAFAFA;
 }
 
 path {
@@ -60,15 +64,11 @@ html {
 body {
   box-sizing: border-box;
   height: 100vh;
-  background: #FAFAFA;
+  background: var(--background-color);
 }
 
 img {
   width: 100%;
-}
-
-svg:hover {
-  fill: red;
 }
 
 body {
@@ -82,7 +82,7 @@ li {
 }
 
 a {
-  color: #253237;
+  color: var(--color-links);
   font-weight: 700;
 }
 
@@ -254,7 +254,7 @@ footer svg {
   height: 4.7rem;
   padding: 0.6rem;
   margin-right: 2.8rem;
-  background: #FAFAFA;
+  background: var(--background-color);
   border-radius: 50%;
   margin-top: 1.1rem;
   display: flex;
@@ -267,7 +267,7 @@ footer svg {
   flex: none;
   width: 70%;
   height: 2px;
-  background: #253237;
+  background: var(--color-text);
   display: flex;
   align-items: center;
   justify-content: center;
