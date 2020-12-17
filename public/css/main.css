@@ -43,6 +43,11 @@ html {
 body {
   box-sizing: border-box;
   height: 100vh;
+  background: #FAFAFA;
+}
+
+img {
+  width: 100%;
 }
 
 body {
@@ -68,11 +73,33 @@ a:hover {
 p {
   font-size: 1.8rem;
   font-weight: 300;
+  line-height: 3rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 1.87rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  font-family: "Playfair Display", serif;
 }
 
 ::selection {
   background-color: #253237;
   color: #FAFAFA;
+}
+
+.contact-button {
+  margin-bottom: 12rem;
+  margin-left: 4rem;
 }
 
 header {
@@ -110,6 +137,38 @@ header nav svg {
 
 .menu-item {
   visibility: hidden;
+}
+
+.section {
+  background: #253237;
+  padding: 1.6rem;
+}
+.section__heading {
+  color: #FAFAFA;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  font-size: 6rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  margin-bottom: 4rem;
+}
+
+.div1 {
+  grid-area: 1/1/2/2;
+}
+
+.div2 {
+  grid-area: 1/2/2/3;
+}
+
+.landing__text {
+  margin-bottom: 1.87rem;
 }
 
 .menu-wrap .toggler {

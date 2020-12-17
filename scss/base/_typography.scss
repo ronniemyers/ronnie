@@ -21,6 +21,23 @@ a:hover {
 p {
     font-size: $default-font-size;
     font-weight: 300;
+    line-height: 3rem;
+    margin-right: $medium-margin;
+    margin-left: $medium-margin;
+}
+
+h1 {
+    font-size: $large-font-size;
+    margin-top: $large-margin;
+    margin-bottom: $small-margin;
+}
+
+h1,
+h2,
+h3 {
+    margin-right: $medium-margin;
+    margin-left: $medium-margin;
+    font-family: $playfair-display;
 }
 
 ::selection {
