@@ -1,3 +1,11 @@
 .landing__text {
     margin-bottom: $small-margin;
 }
+
+.landing__about--text {
+    font-size: $medium-font-size;
+}
+
+.center {
+    @include center;
+}

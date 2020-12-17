@@ -9,13 +9,8 @@ li {
 }
 
 a {
-    color: $color-roman-silver;
-    text-decoration: none;
-}
-
-a:hover {
-    color: $color-cultured;
-    text-decoration: underline;
+    color: $color-gunmetal;
+    font-weight: 700;
 }
 
 p {
@@ -40,7 +35,13 @@ h3 {
     font-family: $playfair-display;
 }
 
+h3 {
+    margin-top: $large-margin;
+    font-size: $medium-font-size;
+    margin-bottom: $small-margin;
+}
+
 ::selection {
-    background-color: $color-gunmetal;
+    background-color: $color-roman-silver;
     color: $color-cultured;
 }

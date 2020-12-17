@@ -1,6 +1,7 @@
 .section {
     background: $color-gunmetal;
-    padding: $default-padding;
+    padding-top: $default-padding;
+    padding-bottom: $default-padding;
 
     &__heading {
         color: $color-cultured;
@@ -8,21 +9,4 @@
         padding-bottom: $default-padding;
         font-size: $xlarge-font-size;
     }
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
-    margin-bottom: $medium-margin;
-}
-
-.div1 {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.div2 {
-    grid-area: 1 / 2 / 2 / 3;
 }

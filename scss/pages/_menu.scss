@@ -1,9 +1,3 @@
-// #showcase {
-//     background: $color-cultured;
-//     height: 100vh;
-//     position: relative;
-// }
-
 .menu-wrap .toggler {
     position: absolute;
     top: 0;
@@ -14,7 +8,6 @@
     height: 5.7rem;
     opacity: 0;
 }
-
 
 .menu-wrap .hamburger {
     position: absolute;
@@ -130,6 +123,17 @@
     height: 100vh;
 
 }
+
+.menu a {
+    color: $color-roman-silver;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-cultured;
+        text-decoration: underline;
+    }
+}
+
 
 .menu__content--scroll {
     margin-left: $medium-margin;
