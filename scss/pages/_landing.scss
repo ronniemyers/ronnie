@@ -1,14 +1,32 @@
-.landing__text {
+.landing__description {
     margin-bottom: $small-margin;
+    color: var(--color-description);
 }
 
 .landing__about--text {
     font-size: $medium-font-size;
 }
 
+.landing__about--heading {
+    color: var(--color-zomp);
+}
+
 .center {
     @include center;
     margin-bottom: $large-margin;
+}
+
+.home__gallery {
+    @include grid;
+    grid-template-rows: 1fr;
+}
+
+.home__gallery--1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.home__gallery--2 {
+    grid-area: 1 / 2 / 2 / 3;
 }
 
 .airplane {
@@ -17,7 +35,7 @@
 }
 
 .landing__cities>p {
-    color: $color-cultured;
+    color: var(--color-travel);
     font-family: $playfair-display;
     font-size: $large-font-size;
     margin-bottom: $large-margin;

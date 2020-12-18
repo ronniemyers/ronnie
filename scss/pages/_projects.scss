@@ -1,0 +1,24 @@
+.projects__description {
+    margin-bottom: $large-margin;
+}
+
+.projects__gallery {
+    @include grid;
+    margin-top: $medium-margin;
+}
+
+.projects__gallery--1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.projects__gallery--2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.projects__gallery--3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.projects__gallery--4 {
+    grid-area: 2 / 2 / 3 / 3;
+}
