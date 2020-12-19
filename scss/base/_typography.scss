@@ -1,6 +1,10 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Playfair+Display:wght@400;700&display=swap');
+
 body {
     font-family: $lato;
     color: var(--color-text);
+    font-weight: 300;
 }
 
 li {
@@ -11,11 +15,15 @@ li {
 a {
     color: var(--color-zomp);
     font-weight: 700;
+    text-underline-position: under;
+
+    &:hover {
+        color: $color-zomp;
+    }
 }
 
 p {
     font-size: $default-font-size;
-    font-weight: 300;
     line-height: 3rem;
     margin-right: $medium-margin;
     margin-left: $medium-margin;

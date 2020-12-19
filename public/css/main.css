@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Playfair+Display:wght@400;700&display=swap");
 :root {
   --nav-height: 8.125rem;
   --background-color: #FAFAFA;
@@ -78,6 +78,7 @@ img {
 body {
   font-family: "Lato", sans-serif;
   color: var(--color-text);
+  font-weight: 300;
 }
 
 li {
@@ -88,11 +89,14 @@ li {
 a {
   color: var(--color-zomp);
   font-weight: 700;
+  text-underline-position: under;
+}
+a:hover {
+  color: #41A78E;
 }
 
 p {
   font-size: 1.8rem;
-  font-weight: 300;
   line-height: 3rem;
   margin-right: 4rem;
   margin-left: 4rem;
@@ -189,16 +193,43 @@ footer svg {
   font-size: 6rem;
 }
 
-.landing__description {
-  margin-bottom: 1.87rem;
+.page__description {
+  margin-bottom: 8rem;
+  font-size: 2.2rem;
+  line-height: 4rem;
+}
+
+.bold__description {
+  font-weight: bold;
   color: var(--color-description);
 }
 
-.landing__about--text {
+.info--heading {
+  color: var(--color-zomp);
+  font-size: 2.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.info--text {
   font-size: 2.2rem;
 }
 
-.landing__about--heading {
+.landing__tag {
+  color: #7D8491;
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-bottom: 1.87rem;
+}
+
+.landing__description {
+  margin-bottom: 1.87rem;
+}
+
+.landing__info--text {
+  font-size: 2.2rem;
+}
+
+.landing__info--heading {
   color: var(--color-zomp);
 }
 
@@ -379,10 +410,6 @@ footer svg {
 .menu__content--scroll {
   margin-left: 4rem;
   margin-right: 4rem;
-}
-
-.projects__description {
-  margin-bottom: 8rem;
 }
 
 .projects__gallery {

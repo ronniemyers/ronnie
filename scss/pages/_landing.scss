@@ -1,13 +1,19 @@
-.landing__description {
+.landing__tag {
+    color: $color-roman-silver;
+    font-weight: bold;
+    font-size: $medium-font-size;
     margin-bottom: $small-margin;
-    color: var(--color-description);
 }
 
-.landing__about--text {
+.landing__description {
+    margin-bottom: $small-margin;
+}
+
+.landing__info--text {
     font-size: $medium-font-size;
 }
 
-.landing__about--heading {
+.landing__info--heading {
     color: var(--color-zomp);
 }
 

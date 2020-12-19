@@ -1,0 +1,20 @@
+.page__description {
+    margin-bottom: $large-margin;
+    font-size: $medium-font-size;
+    line-height: $medium-line-height;
+}
+
+.bold__description {
+    font-weight: bold;
+    color: var(--color-description);
+}
+
+.info--heading {
+    color: var(--color-zomp);
+    font-size: $medium-font-size;
+    font-family: $lato;
+}
+
+.info--text {
+    font-size: $medium-font-size;
+}
