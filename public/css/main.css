@@ -276,6 +276,13 @@ footer svg {
   margin-top: 4rem;
 }
 
+.about-content {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  font-size: 4rem;
+  line-height: 5.4rem;
+}
+
 .menu-wrap .toggler {
   position: absolute;
   top: 0;
