@@ -7,6 +7,7 @@
   --color-social: #7D8491;
   --color-description: #253237;
   --color-travel: #FAFAFA;
+  --color-tag: #7D8491;
 }
 
 .dark {
@@ -16,6 +17,7 @@
   --color-social: #FAFAFA;
   --color-description: #7D8491;
   --color-travel: #41A78E;
+  --color-tag: #41A78E;
 }
 
 path {
@@ -215,7 +217,7 @@ footer svg {
 }
 
 .landing__tag {
-  color: #7D8491;
+  color: var(--color-tag);
   font-weight: bold;
   font-size: 2.2rem;
   margin-bottom: 1.87rem;
@@ -436,6 +438,33 @@ footer svg {
 }
 
 .projects__gallery--4 {
+  grid-area: 2/2/3/3;
+}
+
+.design__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.design__gallery--1 {
+  grid-area: 1/1/2/2;
+}
+
+.design__gallery--2 {
+  grid-area: 1/2/2/3;
+}
+
+.design__gallery--3 {
+  grid-area: 2/1/3/2;
+}
+
+.design__gallery--4 {
   grid-area: 2/2/3/3;
 }
 

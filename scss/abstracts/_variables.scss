@@ -12,6 +12,7 @@ $color-cultured: #FAFAFA;
     --color-social: #{$color-roman-silver};
     --color-description: #{$color-gunmetal};
     --color-travel: #{$color-cultured};
+    --color-tag: #{$color-roman-silver};
 }
 
 .dark {
@@ -21,6 +22,7 @@ $color-cultured: #FAFAFA;
     --color-social: #{$color-cultured};
     --color-description: #{$color-roman-silver};
     --color-travel: #{$color-zomp};
+    --color-tag: #{$color-zomp};
 }
 
 // font

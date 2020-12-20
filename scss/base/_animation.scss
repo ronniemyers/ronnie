@@ -42,3 +42,19 @@ path {
         transform: translateX(-12px);
     }
 }
+
+// TODO: name animation
+// .name-animation {
+//     stroke-dasharray: 480; // (calculated line)
+//     animation: draw 1s reverse;
+
+//     @keyframes draw {
+//         from {
+//             stroke-dashoffset: 0;
+//         }
+
+//         to {
+//             stroke-dashoffset: 480;
+//         }
+//     }
+// }
