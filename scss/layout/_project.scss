@@ -1,0 +1,26 @@
+.project__links a {
+    color: $color-roman-silver;
+    font-size: $default-font-size;
+    font-weight: 300;
+
+    &:hover {
+        color: $color-zomp;
+    }
+}
+
+.project__links--2 {
+    margin-bottom: $large-margin;
+
+}
+
+.project__title {
+    text-align: center;
+    margin-bottom: $small-margin;
+    margin-top: $xlarge-margin;
+    margin-bottom: $medium-margin
+}
+
+.project__content {
+    padding: $large-padding;
+    padding-top: $small-padding;
+}

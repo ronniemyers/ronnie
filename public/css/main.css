@@ -216,6 +216,31 @@ footer svg {
   font-size: 2.2rem;
 }
 
+.project__links a {
+  color: #7D8491;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.project__links a:hover {
+  color: #41A78E;
+}
+
+.project__links--2 {
+  margin-bottom: 8rem;
+}
+
+.project__title {
+  text-align: center;
+  margin-bottom: 1.87rem;
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+}
+
+.project__content {
+  padding: 6rem;
+  padding-top: 1rem;
+}
+
 .landing__tag {
   color: var(--color-tag);
   font-weight: bold;
