@@ -203,7 +203,6 @@ footer svg {
 
 .bold__description {
   font-weight: bold;
-  color: var(--color-description);
 }
 
 .info--heading {
@@ -233,7 +232,6 @@ footer svg {
   text-align: center;
   margin-bottom: 1.87rem;
   margin-top: 12rem;
-  margin-bottom: 4rem;
 }
 
 .project__content {
