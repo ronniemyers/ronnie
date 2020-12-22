@@ -9,12 +9,12 @@
 
 @import "components/background";
 @import "components/button";
+@import "components/svg";
 
 @import"layout/header";
 @import "layout/footer";
 @import "layout/section";
 @import "layout/info";
-@import "layout/project";
 
 @import "pages/landing";
 @import "pages/about";
@@ -22,3 +22,4 @@
 @import "pages/projects";
 @import "pages/design";
 @import "pages/photography";
+@import "pages/project";

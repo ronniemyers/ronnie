@@ -129,9 +129,18 @@ h3 {
   color: #FAFAFA;
 }
 
+b {
+  font-weight: bold;
+}
+
 .contact-button {
   margin-bottom: 12rem;
   margin-left: 4rem;
+}
+
+.center__svg {
+  display: block;
+  margin: auto;
 }
 
 header {
@@ -213,30 +222,6 @@ footer svg {
 
 .info--text {
   font-size: 2.2rem;
-}
-
-.project__links a {
-  color: #7D8491;
-  font-size: 1.8rem;
-  font-weight: 300;
-}
-.project__links a:hover {
-  color: #41A78E;
-}
-
-.project__links--2 {
-  margin-bottom: 8rem;
-}
-
-.project__title {
-  text-align: center;
-  margin-bottom: 1.87rem;
-  margin-top: 12rem;
-}
-
-.project__content {
-  padding: 6rem;
-  padding-top: 1rem;
 }
 
 .landing__tag {
@@ -556,6 +541,41 @@ footer svg {
 
 .photography__gallery--12 {
   grid-area: 6/2/7/3;
+}
+
+.project__links a {
+  color: #7D8491;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.project__links a:hover {
+  color: #41A78E;
+}
+
+.project__links--2 {
+  margin-bottom: 8rem;
+}
+
+.project__title {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 12rem;
+  padding-top: 14rem;
+}
+
+.project__content {
+  padding-top: 1rem;
+  padding-right: 14rem;
+  padding-left: 14rem;
+}
+
+.project__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 8rem;
+  margin-top: 4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
