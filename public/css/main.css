@@ -208,6 +208,7 @@ footer svg {
   margin-bottom: 8rem;
   font-size: 2.2rem;
   line-height: 4rem;
+  color: var(--color-description);
 }
 
 .bold__description {
@@ -233,6 +234,7 @@ footer svg {
 
 .landing__description {
   margin-bottom: 1.87rem;
+  color: var(--color-description);
 }
 
 .landing__info--text {
