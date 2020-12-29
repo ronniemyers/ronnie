@@ -8,5 +8,9 @@
         padding-top: $default-padding;
         padding-bottom: $default-padding;
         font-size: $xlarge-font-size;
+
+        @include respond(phone) {
+            font-size: $large-font-size;
+        }
     }
 }
