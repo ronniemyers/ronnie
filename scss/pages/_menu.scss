@@ -91,6 +91,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include respond(tab-port) {
+        width: 60%;
+    }
+
+    @include respond(phone) {
+        width: 90%;
+        height: 70%;
+    }
 }
 
 .menu-wrap .menu>div {
