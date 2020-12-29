@@ -3,4 +3,12 @@
     margin-bottom: $medium-margin;
     font-size: $large-font-size;
     line-height: $large-line-height;
+
+    @include respond(tab-port) {
+        font-size: $medium-font-size;
+    }
+
+    @include respond(phone) {
+        font-size: $default-font-size;
+    }
 }
