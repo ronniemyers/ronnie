@@ -27,12 +27,20 @@ p {
     line-height: 3rem;
     margin-right: $medium-margin;
     margin-left: $medium-margin;
+
+    @include respond(phone) {
+        font-size: $medium-font-size;
+    }
 }
 
 h1 {
     font-size: $large-font-size;
     margin-top: $large-margin;
     margin-bottom: $small-margin;
+
+    @include respond(phone) {
+        font-size: 3.4rem;
+    }
 }
 
 h1,

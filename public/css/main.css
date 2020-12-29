@@ -130,11 +130,21 @@ p {
   margin-right: 4rem;
   margin-left: 4rem;
 }
+@media only screen and (max-width: 37.5em) {
+  p {
+    font-size: 2.2rem;
+  }
+}
 
 h1 {
   font-size: 4rem;
   margin-top: 8rem;
   margin-bottom: 1.87rem;
+}
+@media only screen and (max-width: 37.5em) {
+  h1 {
+    font-size: 3.4rem;
+  }
 }
 
 h1,
@@ -214,6 +224,10 @@ footer .footer__nav {
   padding: 0 4rem;
   height: 100%;
 }
+footer .footer__nav > p {
+  font-size: 1.8rem;
+  margin: 0;
+}
 footer svg {
   margin-left: 1.87rem;
   cursor: pointer;
@@ -267,9 +281,20 @@ footer svg {
 .landing__info--text {
   font-size: 2.2rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .landing__info--text {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
 
 .landing__info--heading {
   color: var(--color-zomp);
+}
+@media only screen and (max-width: 37.5em) {
+  .landing__info--heading {
+    text-align: center;
+  }
 }
 
 .center {

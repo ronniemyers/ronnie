@@ -11,6 +11,12 @@ footer {
         margin-left: auto;
         padding: 0 4rem;
         height: 100%;
+
+        &>p {
+            font-size: $default-font-size;
+            margin: 0;
+
+        }
     }
 
     svg {

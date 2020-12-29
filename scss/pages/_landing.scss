@@ -12,10 +12,19 @@
 
 .landing__info--text {
     font-size: $medium-font-size;
+
+    @include respond(phone) {
+        font-size: $default-font-size;
+        text-align: center;
+    }
 }
 
 .landing__info--heading {
     color: var(--color-zomp);
+
+    @include respond(phone) {
+        text-align: center;
+    }
 }
 
 .center {
