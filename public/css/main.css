@@ -326,7 +326,6 @@ footer svg {
   padding-left: 4rem;
   padding-right: 4rem;
   margin-bottom: 4rem;
-  grid-template-rows: 1fr;
 }
 @media only screen and (max-width: 37.5em) {
   .home__gallery {
@@ -575,21 +574,47 @@ footer svg {
   margin-bottom: 4rem;
   margin-top: 4rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .design__gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
 
 .design__gallery--1 {
   grid-area: 1/1/2/2;
+}
+@media only screen and (max-width: 37.5em) {
+  .design__gallery--1 {
+    grid-area: 1/1/2/2;
+  }
 }
 
 .design__gallery--2 {
   grid-area: 1/2/2/3;
 }
+@media only screen and (max-width: 37.5em) {
+  .design__gallery--2 {
+    grid-area: 2/1/3/2;
+  }
+}
 
 .design__gallery--3 {
   grid-area: 2/1/3/2;
 }
+@media only screen and (max-width: 37.5em) {
+  .design__gallery--3 {
+    grid-area: 1/1/2/2;
+  }
+}
 
 .design__gallery--4 {
   grid-area: 2/2/3/3;
+}
+@media only screen and (max-width: 37.5em) {
+  .design__gallery--4 {
+    grid-area: 2/1/3/2;
+  }
 }
 
 .photography__gallery {

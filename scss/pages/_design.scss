@@ -1,20 +1,41 @@
 .design__gallery {
     @include grid;
     margin-top: $medium-margin;
+
+    @include respond(phone) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
 }
 
 .design__gallery--1 {
     grid-area: 1 / 1 / 2 / 2;
+
+    @include respond(phone) {
+        grid-area: 1 / 1 / 2 / 2;
+    }
 }
 
 .design__gallery--2 {
     grid-area: 1 / 2 / 2 / 3;
+
+    @include respond(phone) {
+        grid-area: 2 / 1 / 3 / 2;
+    }
 }
 
 .design__gallery--3 {
     grid-area: 2 / 1 / 3 / 2;
+
+    @include respond(phone) {
+        grid-area: 1 / 1 / 2 / 2;
+    }
 }
 
 .design__gallery--4 {
     grid-area: 2 / 2 / 3 / 3;
+
+    @include respond(phone) {
+        grid-area: 2 / 1 / 3 / 2;
+    }
 }

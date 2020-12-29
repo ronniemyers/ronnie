@@ -33,7 +33,6 @@
 
 .home__gallery {
     @include grid;
-    grid-template-rows: 1fr;
 
     @include respond(phone) {
         grid-template-columns: 1fr;
