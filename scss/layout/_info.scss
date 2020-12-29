@@ -13,8 +13,16 @@
     color: var(--color-zomp);
     font-size: $medium-font-size;
     font-family: $lato;
+
+    @include respond(phone) {
+        text-align: center;
+    }
 }
 
 .info--text {
     font-size: $medium-font-size;
+
+    @include respond(phone) {
+        text-align: center;
+    }
 }

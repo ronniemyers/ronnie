@@ -266,9 +266,19 @@ footer svg {
   font-size: 2.2rem;
   font-family: "Lato", sans-serif;
 }
+@media only screen and (max-width: 37.5em) {
+  .info--heading {
+    text-align: center;
+  }
+}
 
 .info--text {
   font-size: 2.2rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .info--text {
+    text-align: center;
+  }
 }
 
 .landing__tag {
@@ -288,7 +298,6 @@ footer svg {
 }
 @media only screen and (max-width: 37.5em) {
   .landing__info--text {
-    font-size: 1.8rem;
     text-align: center;
   }
 }
