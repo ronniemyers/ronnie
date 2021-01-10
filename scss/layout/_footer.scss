@@ -13,7 +13,7 @@ footer {
         height: 100%;
 
         &>p {
-            font-size: $default-font-size;
+            font-size: 1.6rem;
             margin: 0;
 
         }
@@ -22,5 +22,9 @@ footer {
     svg {
         margin-left: $small-margin;
         cursor: pointer;
+
+        @include respond(phone) {
+            margin-left: $medium-margin;
+        }
     }
 }

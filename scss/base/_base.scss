@@ -11,7 +11,7 @@ html {
   font-size: 62.5%;
 
   @include respond(tab-port) {
-    font-size: 46%;
+    font-size: 50%;
   }
 
   @include respond(big-desktop) {

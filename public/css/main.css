@@ -80,7 +80,7 @@ html {
 }
 @media only screen and (max-width: 56.25em) {
   html {
-    font-size: 46%;
+    font-size: 50%;
   }
 }
 @media only screen and (min-width: 112.5em) {
@@ -143,7 +143,7 @@ h1 {
 }
 @media only screen and (max-width: 37.5em) {
   h1 {
-    font-size: 3.4rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -194,7 +194,7 @@ header nav {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding: 0 4rem;
+  padding: 0 6rem;
   height: 100%;
 }
 header nav a {
@@ -225,12 +225,17 @@ footer .footer__nav {
   height: 100%;
 }
 footer .footer__nav > p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0;
 }
 footer svg {
   margin-left: 1.87rem;
   cursor: pointer;
+}
+@media only screen and (max-width: 37.5em) {
+  footer svg {
+    margin-left: 4rem;
+  }
 }
 
 .section {
@@ -299,6 +304,7 @@ footer svg {
 @media only screen and (max-width: 37.5em) {
   .landing__info--text {
     text-align: center;
+    line-height: 4rem;
   }
 }
 

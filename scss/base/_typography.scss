@@ -39,7 +39,7 @@ h1 {
     margin-bottom: $small-margin;
 
     @include respond(phone) {
-        font-size: 3.4rem;
+        font-size: 3.8rem;
     }
 }
 
