@@ -1,6 +1,6 @@
 {
   "name": "ronnie",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "![Firebase Hosting](https://github.com/ronniemyers/ronnie/workflows/Firebase%20Hosting/badge.svg)",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/ronniemyers/ronnie.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["website"],
+  "author": "ronnie myers",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ronniemyers/ronnie/issues"

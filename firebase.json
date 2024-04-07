@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "ronnie-44b80",
     "public": "public",
     "cleanUrls": true,
     "trailingSlash": false,
